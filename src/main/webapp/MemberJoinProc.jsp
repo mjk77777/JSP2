@@ -11,7 +11,8 @@
 			//String id = request.setParameter("id"); => 이런 식으로 쓰면 변수가 많을 때 힘들어
 		%>
 		<!-- request로 넘어온 데이터를 javaBeans와 맵핑 시켜주는 useBean  -->
-			<!-- id는 bean 클래스를 지칭하는 레퍼런스 명 + class: bean 패키지에 있는 MemberBean 클래스   -->
+			<!-- id는 bean 클래스를 지칭하는 레퍼런스 명 , class: bean 패키지에 있는 MemberBean 클래스   -->
+			
 		<jsp:useBean id="mbean" class="bean.MemberBean"><!-- (=객체 생성과 같은 효과) MemberBean mbean = new MemberBean()  --><!--앞으로 mbean을 통해 객체에 접근  -->
 			<!--jsp 내용을 javaBean 클래스(MemberBean) 에 데이터를 맵핑(=넣어줌)  -->
 			<%-- <jsp:setProperty name="mbean" property="id" /> --%> <!-- 각각 다 따로 해줘야 돼  -->

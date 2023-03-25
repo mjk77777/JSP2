@@ -7,7 +7,7 @@
 	<table width="800" >
 	<!-- Top -->
 		<tr height="100">
-			<!-- logo -->
+			<!-- 로고 이미지 -->
 			<td colspan="2" align="center" width="266">
 				<img src="img/캠핑.png" alt="이미지" width="150" height="70">
 			</td>
@@ -15,8 +15,8 @@
 				<font size="10"> 낭만 캠핑 </font>
 			</td>
 		</tr>
+		<!-- 메뉴 -->
 		<tr height="50">
-			<!-- 메뉴 -->
 			<td width="110" align="center">텐트</td>
 			<td width="110" align="center">식기</td>
 			<td width="110" align="center">의자</td>
